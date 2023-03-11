@@ -35,6 +35,9 @@ import tripguide from "./tripguide.png";
 import tacit from "./tacit.png";
 import fifa from "./fifa.png";
 import tumblr from "./tumblr.png";
+import gem from "./gem.png";
+import mem from "./mem.png";
+import rsa from "./rsa.png";
 
 export {
   logo,
@@ -71,4 +74,7 @@ export {
   tacit,
   fifa,
   tumblr,
+  gem,
+  mem,
+  rsa,
 };

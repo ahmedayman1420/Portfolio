@@ -29,6 +29,9 @@ import {
   tacit,
   fifa,
   tumblr,
+  gem,
+  mem,
+  rsa,
 } from "../assets";
 
 export const navLinks = [
@@ -238,6 +241,69 @@ const projects = [
     ],
     image: tumblr,
     source_code_link: "https://github.com/ahmedayman1420/Tumblur4U",
+  },
+  {
+    name: "Golds-Gem",
+    description:
+      "Golds Gym is a  fitness app with the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples, pagination, exercise details, pull related videos from youtube, display similar exercises, and much more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gem,
+    source_code_link: "https://github.com/ahmedayman1420/Golds-Gym",
+  },
+  {
+    name: "Memories",
+    description:
+      "Social media allows individuals to keep in touch with friends and extended family.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mem,
+    source_code_link: "https://github.com/ahmedayman1420/memories",
+  },
+  {
+    name: "RSA-App",
+    description:
+      "Realtime chat app with web sockets using Node.js, Express, Socket.io & mongo database with Vanilla JS on the front with a custom UI. this chat system encrypt & decrypt messages using RSA encryption algorithm.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rsa,
+    source_code_link: "https://github.com/ahmedayman1420/RSA-chat-system",
   },
 ];
 
